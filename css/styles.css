@@ -270,6 +270,29 @@ p {
   width: calc((100%-60px) / 3);
 }
 
+.work-list-item {
+  position: relative;
+}
+
+.work-item-text {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+
+  transform: translate(-50%, -50%);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--accent-color);
+  background: rgba(47, 48, 58, 0.8);
+  width: 370px;
+  height: 70px;
+}
+
 /* -----------sections team------------------ */
 .section-team {
   background-color: var(--color-backgroubd-team);
