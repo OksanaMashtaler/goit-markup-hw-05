@@ -113,6 +113,8 @@ p {
 .nav-link:hover,
 .nav-link:focus {
   color: var(--brand-color);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contact {
   margin-left: auto;
@@ -146,6 +148,8 @@ p {
 .contact-link:focus .contact-icon {
   color: var(--brand-color);
   fill: var(--brand-color);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* -----------hero section------------------ */
@@ -338,6 +342,8 @@ p {
   background-color: var(--brand-color);
   border-radius: 50px;
   fill: var(--accent-color);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* -----------client section------------------ */
@@ -380,12 +386,16 @@ p {
 .client-link:focus .client-icon {
   fill: var(--brand-color);
   border-color: var(--brand-color);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .client-list-item:hover,
 .client-list-item:focus {
   border: 1px solid var(--brand-color);
   border-radius: 4px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* -----------footer------------------ */
@@ -436,6 +446,8 @@ p {
 .footer-link:hover,
 .footer-link:focus {
   color: var(--brand-color);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-social-container {
@@ -472,6 +484,8 @@ p {
 .social-link:focus .footer-icon {
   background-color: var(--brand-color);
   border-radius: 50px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* -----------portfolio------------------ */
 /* -----project section------- */
@@ -506,6 +520,8 @@ p {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .project-section {
@@ -528,6 +544,8 @@ p {
   border: 1px solid #eeeeee;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .project-list-item:nth-child(3n + 3) {
